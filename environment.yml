@@ -1,4 +1,4 @@
-name: RobustSeg
+name: RMMSS
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
   - defaults
@@ -93,4 +93,3 @@ dependencies:
       - yacs==0.1.8
       - yapf==0.40.2
       - zipp==3.19.2
-prefix: /home/dell/anaconda3/envs/RobustSeg
