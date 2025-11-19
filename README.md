@@ -1,7 +1,7 @@
-# RMMSS
-This repository is the official implementation of RMMSS
+# RobustSeg
+This repository is the official implementation of RobustSeg
 
-![RMMSS](pic/main.png)
+![RobustSeg](pic/main.png)
 
 ## 📋Requirements
 The yml file we provided can be used to install requirements:
