@@ -27,14 +27,14 @@ class Seg(nn.Module):
         if backbone == 'mit_b1':
             self.encoder = mit_b1()
             if pretrained:
-                state_dict = torch.load('/home/jinjing/zhengxu/DELIVER/semseg/models/segformer/mit_b1.pth')
+                state_dict = torch.load('/home/dell/Datasets/Deliver/segformers/mit_b1.pth')
                 state_dict.pop('head.weight')
                 state_dict.pop('head.bias')
                 self.encoder.load_state_dict(state_dict, )
         if backbone == 'mit_b4':
             self.encoder = mit_b4()
             if pretrained:
-                state_dict = torch.load('/home/jinjing/zhengxu/DELIVER/semseg/models/segformer/mit_b4.pth')
+                state_dict = torch.load('/home/dell/Datasets/Deliver/segformers/mit_b4.pth')
                 state_dict.pop('head.weight')
                 state_dict.pop('head.bias')
                 self.encoder.load_state_dict(state_dict, )
